@@ -31,9 +31,15 @@ from setuptools import setup
 import sys
 from os import path
 
+requires = []
+
 setup_requires = ['setuptools >= 30.3.0']
 if {'pytest', 'test', 'ptr'}.intersection(sys.argv):
     setup_requires.append('pytest-runner')
+
+with open('requirements.txt') as f:
+    requirements = f.read().splitlines()
+
 
 # Get docstring and version without importing module
 with open('tdtax/__init__.py') as f:
@@ -53,4 +59,5 @@ setup(description=__doc__.splitlines()[0],
       include_package_data=True,
       long_description=long_description,
       long_description_content_type="text/markdown",
-      setup_requires=setup_requires)
+      setup_requires=setup_requires,
+      install_requires=requirements)
