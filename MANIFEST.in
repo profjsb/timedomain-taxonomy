@@ -1,6 +1,9 @@
 include *.txt
 include README.md
 include taxonomy-viz.gif
+include tdtax/schema.json
+include	tdtax/*.yaml
+include tdtax/test/bad.yaml
 include tdtax/viz_template.html
 prune tdtax.egg-info
 global-exclude *.py[co]
