@@ -1,0 +1,8 @@
+include *.txt
+include README.md
+include taxonomy-viz.gif
+include tdtax/viz_template.html
+prune tdtax.egg-info
+global-exclude *.py[co]
+global-exclude *~
+global-exclude *\#
