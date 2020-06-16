@@ -9,7 +9,6 @@ This project helps us track and version a taxonomy for astronomical time-series 
 The generic structure is human-readable YAML and looks like:
 
 ```
-Time-domain Source:
   class: Supernova
   comments: |
       This is a diverse class of explosions related
@@ -33,7 +32,26 @@ Time-domain Source:
         other names: [SN Ia-pec, SNIa-pec, Ia-p]
      ...
 ```
-Only the `class` name is required at each level. Other keys (`subclasses`, `comments`, `tags`, `other names`, and `links`) are allowed but not required. The schema is created such that the classification hierarchy is nested: each member of the `subclasses` array is itself a `class`. The idea of `tags` to is to allow for a query of different `class` members throughout the taxonomy by a similar observation or physical inference (e.g., a search on `cosmology` could return both `Ia` and `IIP` supernovae).
+There are two ways to describe the class. Either refer to another YAML file:
+
+```
+- class: Stellar variable
+    subclasses:
+      - ref: cataclysmic.yaml
+      - ref: eclipsing.yaml
+      - ...
+```
+or define the classes outright:
+
+```
+  - class: Novae
+    tags: [binary]
+    subclasses:
+      - class: Classical Nova
+        other names: []
+```
+
+In this case only the `class` name is required at each level. Other keys (`subclasses`, `comments`, `tags`, `other names`, and `links`) are allowed but not required. The schema is created such that the classification hierarchy is nested: each member of the `subclasses` array is itself a `class`. The idea of `tags` is to allow for a query of different `class` members throughout the taxonomy by a similar observation or physical inference (e.g., a search on `cosmology` could return both `Ia` and `IIP` supernovae).
  
 ## Installation
 
@@ -63,8 +81,9 @@ This will write a file `viz.html` which can be viewed in your browser. The `tags
 
 ## Contributing
 
-The taxonomy is captured in the file `tdtax/tdclass.yaml`
-and is validated against the schema file `tdtax/schema.json`. Before a PR, test to make sure that  taxonomy validates against the schema by running the tests:
+The taxonomy is captured starting the file `tdtax/top.yaml`. It refers to other YAML files which contain classification hierarchies for subclasses.
+
+Upon `import tdtax` the taxonomies are merged into a single JSON tree and this is validated against the schema file `tdtax/schema.json`. Before a PR, test to make sure that taxonomy validates against the schema by running the tests:
 
 ```
 pytest
