@@ -1,0 +1,13 @@
+class: Time-domain Source
+subclasses:
+  - ref: nonstellar.yaml
+    comments: |
+      Link to Non-stellar variability sources such as AGN
+  - class: Stellar variable
+    subclasses:
+      - ref: cataclysmic.yaml
+      - ref: eclipsing.yaml
+      - ref: rotating.yaml
+      - ref: eruptive.yaml
+      - ref: pulsating.yaml
+
