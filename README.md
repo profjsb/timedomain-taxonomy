@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/profjsb/timedomain-taxonomy.svg?branch=master)](https://travis-ci.org/profjsb/timedomain-taxonomy)
 
+<img src="taxonomy-viz.gif">
+
 This project helps us track and version a taxonomy for astronomical time-series sources, for transients (e.g., supernovae and tidal-distruption events), continuous variables (e.g., QSOs) and variable stars (RR Lyrae, &delta;-Scuti). It is open source and we welcome PRs to change/update this taxonomy as need be.
 
 The generic structure is human-readable YAML and looks like:
@@ -46,8 +48,18 @@ pip install .
 To get the taxonomy, after installation, as a Python `dict`:
 
 ```
+import tdtax
 from tdtax import taxonomy
 ```
+This will merge all the YAML taxonomy files referred to in the `top.yaml` file and check to make sure that the taxonomy is validate against the schema.
+
+To output the current taxonomy to a webpage that can be interactively traversed:
+
+```
+import tdtax
+tdtax.write_viz(tdtax.vega_taxonomy, outname="viz.html")
+```
+This will write a file `viz.html` which can be viewed in your browser. The `tags` associated with each node is shown upon hover.
 
 ## Contributing
 

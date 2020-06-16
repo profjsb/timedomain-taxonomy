@@ -1,0 +1,62 @@
+class: Supernova
+tags: [explosive, transient]
+other names: [SN, sn, sne, supernova, supernovae]
+subclasses:
+- class: Type I
+  tags: [hydrogen poor]
+  other names: [SN Type I]
+  subclasses:
+  - class: Ia
+    tags: [white dwarf, cosmology, thermonuclear]
+    other names: [Ia-p, SN Ia, SNIa, supernovae Ia, SNe Ia]
+    subclasses:
+    - class: Ia-pec
+      tags: [peculiar]
+      other names: [SN Ia-pec, SNIa-pec, Ia-p]
+  - class: Ib
+    tags: [core collapse, helium rich]
+    other names: [SN Ib, SNIb, supernovae Ib, SNe Ib]
+    subclasses:
+      - class: Ib-p
+        other names: [SN Ib-p]
+  - class: Ic
+    tags: [core collapse, no helium]
+    other names: [SN Ic, SNIc, supernovae Ic, SNe Ic]
+    subclasses:
+      - class: Ic-BL
+        tags: [broad lines, high-velocity, massive stars]
+        other names: [SN IcBL, SN Ic-BL]
+      - class: SLSN I
+        tags: [bright, super-luminous]
+        other names: [SLSN Type I]
+      - class: Ic-p
+        tags: [peculiar]
+        other names: [SN Ic-p]
+  - class: Ib/c
+    tags: [core collapse, unclear which subclass]
+    other names: [SN Ib/c, SNIb/c, SN Ibc]
+- class: Type II
+  tags: hydrogen rich
+  other names: [SN Type II]
+  subclasses:
+    - class: IIn
+      tags: [narrow line]
+      other names: [SN IIn, SNe IIn]
+      sublasses:
+        - class: SNLN II
+          tags: [bright, super-luminous]
+          other names: [SLSN Type II]
+    - class: IIP
+      tags: [plateau]
+      other names: [SNIIP, SN II-P, SN Type IIP]
+    - class: IIL
+      tags: [linear]
+      other names: [SNIIP, SN II-L, SN Type IIL]
+    - class: IIb
+      tags: [helium rich]
+      other names: [SNIIb, SN II-b, SN Type IIb]
+    - class: IIpec
+      tags: [peculiar]
+      comments: SN 1987a
+      other names: [SNIIp, SN II-p, SN Type IIp, IIpec, II-p]
+

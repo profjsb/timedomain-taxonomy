@@ -60,4 +60,7 @@ setup(description=__doc__.splitlines()[0],
       long_description=long_description,
       long_description_content_type="text/markdown",
       setup_requires=setup_requires,
-      install_requires=requirements)
+      install_requires=requirements,
+      package_dir={'tdtax': 'tdtax'},
+      package_data={'tdtax': ['viz_template.html']}
+      )

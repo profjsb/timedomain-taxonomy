@@ -1,0 +1,49 @@
+class: Cataclysmic
+subclasses:
+  - class: GRB
+    other names: [Gamma-ray bursts, GRBs]
+    subclasses:
+      - class: short GRB
+        tags: [gravitational waves, compact object]
+        other names: [SHB, sGRB]
+      - class: long GRB
+        other names: [LSB, lGRB, long-soft GRB]
+  - ref: supernovae.yaml
+    comments: Supernova classification taxonomy
+  - class: Novae
+    tags: [binary]
+    subclasses:
+      - class: Classical Nova
+        other names: []
+      - class: Nova-like
+        other names: []
+        subclasses:
+          - class: SW Sex
+            other names: []
+          - class: VY Scl
+            other names: []
+          - class: UX UMa
+            other names: []
+          - class: AM CVn
+            other names: []
+      - class: Polars
+        subclasses:
+          - class: AM Her
+            other names: []
+          - class: DQ Her
+            other names: []
+      - class: Recurrent Nova
+        other names: []
+      - class: U Gem
+        subclasses:
+          - class: SS Cyg
+            other names: []
+          - class: Z Cam
+            other names: []
+          - class: SU UMaj
+            other names: []
+            subclasses:
+              - class: ER U Maj
+                other names: []
+              - class: WZ Sge
+                other names: []

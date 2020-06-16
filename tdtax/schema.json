@@ -4,7 +4,20 @@
     "title": "Schema for Astronomical Time-Domain Source Taxonomy",
     "definitions": {
         "node": {
-            "anyOf": [{
+            "oneOf": [{
+                "$comment": "Link to another YAML file",
+                "type": "object",
+                "required": ["ref"],
+                "additionalProperties": false,
+                "ref": {
+                        "type": "string",
+                        "format": "uri"
+                },
+                "comments": {
+                        "type": "string"
+                    }
+                },
+                {
                 "type": "object",
                 "required": ["class"],
                 "additionalProperties": false,
@@ -53,14 +66,5 @@
             }]
         }
     },
-    "type": "object",
-    "required": ["Time-domain Source", "version"],
-    "properties": {"Time-domain Source": {
-                        "$ref": "#/definitions/node"
-                   },
-                   "version": {
-                        "type": "string"
-                   }
-               },
-    "additionalProperties": false
+    "allOf": [{"$ref": "#/definitions/node"}]
 }
