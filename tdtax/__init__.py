@@ -54,7 +54,7 @@ def walk_and_replace(d, path="./", verbose=False):
                     if value[i].get("ref") is not None:
                         ref = path + value[i].get("ref")
                         if os.path.exists(ref):
-                            replacement = yaml.load(open(ref))
+                            replacement = yaml.load(open(ref), Loader=Loader)
                             value[i] = replacement
                         else:
                             if verbose:
