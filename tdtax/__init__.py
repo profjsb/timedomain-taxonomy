@@ -88,3 +88,6 @@ vega_taxonomy = json.loads(taxstr)
 __all__ = ["taxonomy", "schema", "merge_yamls", "vega_taxonomy", "write_viz"]
 
 __version__ = '0.0.2'
+
+del (taxstr, walk_and_replace, merge_yamls,
+     os, json, pkgutil, datetime, yaml, Loader, pjoin)
