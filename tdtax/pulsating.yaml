@@ -1,0 +1,117 @@
+class: Pulsating
+subclasses:
+  - class: Gamma Doradus
+    tags: [main sequence] 
+    other names: []
+  - class: SX Phe
+    tags: [type A2-F5, subdwarf, instability strip, possible Delta Scuti subtype]
+    other names: [SX Phoenicis]
+  - class: RR Lyrae
+    tags: [type A/F, instability strip, standard candle]
+    other names: [RR Lyr, RR variable, cluster variable]
+    subclasses:
+      - class: RRcl
+        other names: []
+      - class: RRab
+        other names: []
+      - class: RRc
+        other names: []
+      - class: RRd
+        other names: []
+      - class: RRe
+        other names: []
+  - class: Alpha Cygni
+    tags: [types A/B, supergiant]
+    other names: [Alpha Cyg, A Cyg, ACYG]
+  - class: Mira
+    tags: [red giant, long period]
+    other names: [Long period variable]
+  - class: Pulsating WD
+    other names: [Pulsating white dwarf]
+    subclasses:
+      - class: GW VIr
+        tags: [pre-degenerate]
+        other names: [DOV, Pulsating PG 1159]
+      - class: ZZ Ceti
+        tags: []
+        other names: [ZZ Cet]
+        subclasses: 
+          - class: H abs only
+            tags: [type DA]
+            other names: [DAV]
+          - class: He abs only
+            tags: [type DB]
+            other names: [DBV, DB white dwarf, V777 Her]
+          - class: Showing HeII
+            other names: []
+  - class: Sun analogue
+    tags: [main sequence]
+    other names: [Sun analog, Solar analogue, Solar analog]
+  - class: Delta Scuti
+    tags: [giant/main sequence, instability strip, standard candle]
+    other names: [Delta Sct, DSct, dwarf cepheid]
+    subclasses: 
+      - class: Low-Amp
+        other names: [LADS, Low-amplitude delta Scuti]
+      - class: High-Amp
+        other names: [HADS, High-amplitude delta Scuti]
+  - class: PV Telescopii
+    tags: [type Bp, chemically peculiar, supergiant]
+    other names: [PVTEL, PV Tel]
+  - class: Beta Cephei
+    tags: [type B, main sequence, Z bump]
+    other names: [BCep, B Cep, Beta Canis Majoris]
+  - class: Semiregular
+    tags: [giant/supergiant, long period]
+    other names: [SR]
+    subclasses:
+      - class: SRa/Z-Aquarii
+        other names: []
+      - class: SRb
+        other names: []
+      - class: SRc
+        other names: []
+      - class: SRd
+        other names: []
+  - class: RV Tau
+    tags: [post-AGB, possible Population II Cepheid, instability strip, long period]
+    other names: [RV Tauri]
+    subclasses:
+      - class: Const Mean Mag
+        other names: [Constant mean magnitude]
+      - class: Var Mean Mag
+        other names: [Variable mean magnitude]
+  - class: Population II Cepheid
+    tags: []
+    subclasses:
+      - class: BL Her
+        tags: [pre-AGB]
+        other names: [BL Herculis]
+      - class: W Vir
+        tags: [types F6-K2, blue loop]
+        other names: [W Virginis]
+        subclasses: 
+          - name: Short Period
+            other names: [Short-Period]
+          - name: Long Period
+            other names: [Long-Period]
+  - class:  Cepheid
+    tags: [giant/supergiant, instability strip, standard candle]
+    other names: [Cep]
+    subclasses:
+      - class: Anomolous
+        other names: [Anomolous Cepheid]
+      - class: Mult-mode
+        other names: [Double-mode Cepheid, Multi-mode Cepheid]
+      - class: Classical 
+        tags: []
+        other names: [Population I Cepheid, Type I Cepheid, DCEP, Delta Cepheid, Classical Cepheid]
+        subclasses: 
+          - class: Symmetrical
+            other names: [DCEPS, Delta Cep-type Symmetrical]
+  - class: SPB
+    tags: [type B2-B9, main sequence]
+    other names: [53 Persei, Slowly Pulsating B-type]
+  - class: BLAP 
+    tags: [proposed class]
+    other names: [Blue Large-Amplitude Pulsator]
