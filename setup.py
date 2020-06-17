@@ -52,7 +52,10 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 
 __doc__ = ast.get_docstring(mod)
 print(__doc__)
-__version__ = mod.body[-1].value.s
+
+assignments = [node for node in mod.body if isinstance(node, ast.Assign)]
+__version__ = [node.value.s for node in assignments
+               if node.targets[0].id == '__version__'][0]
 
 setup(description=__doc__.splitlines()[0],
       version=__version__,
