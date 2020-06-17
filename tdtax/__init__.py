@@ -5,6 +5,7 @@ The taxonomy is captured in the file `tdtax/tdclass.yaml`
 and is validated against the schema file `tdtax/schema.json`
 """
 import os
+from os.path import join as pjoin
 import json
 import pkgutil
 import datetime
@@ -14,7 +15,8 @@ from yaml import Loader
 from jsonschema import validate
 
 
-schema = json.load(open("tdtax/schema.json", "r"))
+_basedir = os.path.dirname(__file__)
+schema = json.load(open(pjoin(_basedir, "schema.json"), "r"))
 
 
 def write_viz(vega_taxonomy, outname="viz.html"):
@@ -73,7 +75,7 @@ def merge_yamls(fname):
 
 
 # get the taxonomy and validate
-taxonomy = merge_yamls("tdtax/top.yaml")
+taxonomy = merge_yamls(pjoin(_basedir, "top.yaml"))
 validate(instance=taxonomy, schema=schema)
 
 # get a version of the taxonomy suitable for vega/d3 viz
