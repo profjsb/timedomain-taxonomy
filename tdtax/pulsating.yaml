@@ -2,30 +2,30 @@ class: Pulsating
 subclasses:
   - class: Gamma Doradus
     tags: [main sequence] 
-    other names: []
+    other names: [GDOR, GDor]
   - class: SX Phe
     tags: [type A2-F5, subdwarf, instability strip, possible Delta Scuti subtype]
     other names: [SX Phoenicis, SXPHE]
   - class: RR Lyrae
     tags: [type A/F, instability strip, standard candle]
-    other names: [RR Lyr, RR variable, cluster variable]
+    other names: [RR Lyr, RR variable, RR, cluster variable]
     subclasses:
       - class: RRcl
-        other names: []
+        other names: [RRCL]
       - class: RRab
-        other names: []
+        other names: [RRAB]
       - class: RRc
-        other names: []
+        other names: [RRC]
       - class: RRd
-        other names: []
+        other names: [RRD]
       - class: RRe
-        other names: []
+        other names: [RRE]
   - class: Alpha Cygni
     tags: [types A/B, supergiant]
     other names: [Alpha Cyg, A Cyg, ACYG]
   - class: Mira
     tags: [red giant, long period]
-    other names: [Long period variable]
+    other names: [M, Long period variable]
   - class: Pulsating WD
     other names: [Pulsating white dwarf]
     tags: [white dwarf]
@@ -34,49 +34,52 @@ subclasses:
         tags: [pre-degenerate]
         other names: [DOV, Pulsating PG 1159]
       - class: ZZ Ceti
-        tags: []
+        tags: [ZZ]
         other names: [DAV, ZZ Cet]
         subclasses: 
           - class: H abs only
             tags: [type DA]
-            other names: [DAV]
+            other names: [DAV, H-WD]
           - class: He abs only
             tags: [type DB]
-            other names: [DBV, DB white dwarf, V777 Her]
+            other names: [DBV, DB white dwarf, V777 Her, He-WD]
           - class: Showing HeII
             other names: []
   - class: Sun analogue
     tags: [main sequence]
-    other names: [Sun analog, Solar analogue, Solar analog]
+    other names: [Sun analog, Solar analogue, Solar analog, Solar-like]
   - class: Delta Scuti
-    tags: [giant/main sequence, instability strip, standard candle]
-    other names: [Delta Sct, DSct, dwarf cepheid, DST]
+    tags: [instability strip, standard candle]
+    other names: [Delta Sct, DSct, dwarf cepheid, DST, DSCT]
     subclasses: 
       - class: Low-Amp
         other names: [LADS, Low-amplitude delta Scuti]
       - class: High-Amp
-        other names: [HADS, High-amplitude delta Scuti]
+        other names: [giant/main sequence, HADS, High-amplitude delta Scuti, Al Velorum]
+      - class: PMS Delta Scuti
+        tags: [pre-main sequence]
+        other names: [Pre-main sequence Delta Scuti]
   - class: PV Telescopii
     tags: [type Bp, chemically peculiar, supergiant]
-    other names: [PVTEL, PV Tel]
+    other names: [PVTEL, PVTel, PV Tel]
   - class: Beta Cephei
     tags: [type B, main sequence, Z bump]
     other names: [BCep, B Cep, Beta Canis Majoris, β Cephei, BCEP]
   - class: Semiregular
     tags: [giant/supergiant, long period]
-    other names: [SR, SRPV]
+    other names: [SR, SRPV, semi-regular]
     subclasses:
       - class: SRa/Z-Aquarii
-        other names: []
+        other names: [SRA]
       - class: SRb
-        other names: []
+        other names: [SRB]
       - class: SRc
-        other names: []
+        other names: [SRC]
       - class: SRd
-        other names: []
+        other names: [SRD]
   - class: RV Tau
     tags: [post-AGB, possible Population II Cepheid, instability strip, long period]
-    other names: [RV Tauri]
+    other names: [RV Tauri, RV]
     subclasses:
       - class: Const Mean Mag
         other names: [Constant mean magnitude]
@@ -84,26 +87,22 @@ subclasses:
         other names: [Variable mean magnitude]
   - class: Population II Cepheid
     tags: []
+    other names: [Population II Ceph, Type II Ceph, Type II Cepheid, Type-II Ceph, Type-II Cepheid, CW]
     subclasses:
       - class: BL Her
         tags: [pre-AGB]
-        other names: [BL Herculis]
+        other names: [BL Herculis, CWB]
       - class: W Vir
         tags: [types F6-K2, blue loop]
-        other names: [W Virginis]
-        subclasses: 
-          - name: Short Period
-            other names: [Short-Period]
-          - name: Long Period
-            other names: [Long-Period]
+        other names: [W Virginis, CWA]
   - class:  Cepheid
     tags: [giant/supergiant, instability strip, standard candle]
-    other names: [Cep]
+    other names: [Cep, CEP]
     subclasses:
       - class: Anomolous
-        other names: [Anomolous Cepheid]
+        other names: [Anomolous Cepheid, BLBOO]
       - class: Mult-mode
-        other names: [Double-mode Cepheid, Multi-mode Cepheid]
+        other names: [Double-mode Cepheid, Multi-mode Cepheid, CEP(B)]
       - class: Classical 
         tags: []
         other names: [Population I Cepheid, Type I Cepheid, DCEP, Delta Cepheid, Classical Cepheid]
@@ -112,7 +111,7 @@ subclasses:
             other names: [DCEPS, Delta Cep-type Symmetrical]
   - class: SPB
     tags: [type B2-B9, main sequence]
-    other names: [53 Persei, Slowly Pulsating B-type]
+    other names: [53 Persei, Slowly Pulsating B-type, Slowly Pulsating B]
   - class: BLAP 
-    tags: [proposed class]
+    tags: []
     other names: [Blue Large-Amplitude Pulsator]

@@ -2,7 +2,7 @@ class: Rotating
 subclasses:
   - class: SX Ari
     tags: [type BOp-B9p, main sequence, strong He I/Si III]
-    other names: [SXA, SX Arietus, SX Ari, helium variable]
+    other names: [SXA, SXARI, SX Arietus, SX Ari, helium variable]
   - class: Alpha2 CVn
     tags: [type B8p-A7p, main sequence, chemically peculiar]
     other names: [Alpha2 Canum Venaticorum, ACV]
@@ -12,10 +12,10 @@ subclasses:
         other names: [ACVO, roAp]
   - class: FK Comae Bern
     tags: [class G/K, binary merger, ellipsoidal, starspots, high-velocity]
-    other names: [FK Comae Berenices, FKCom]
+    other names: [FK Comae Berenices, FKCom, FKCOM]
   - class: Pulsar
     tags: [neutron star, regular period]
     other names: [PSR]
   - class: BY Dra
     tags: [class G/K/M, dwarf, starspots, quasiperiodic]
-    other names: [BYDraconis]
+    other names: [BY, BYDraconis]

@@ -2,10 +2,10 @@ class: Eruptive
 subclasses:
   - class: UV Ceti
     tags: [types M/K, dwarf, magnetic reconnection]
-    other names: [Flare star, UV Cet-type]
+    other names: [UV, Flare star, UV Cet-type]
   - class: S Doradus
     tags: [type B, supergiant/hypergiant, S Doradus instability strip, high luminosity]
-    other names: [S Dor, SDor, Luminous blue variable, LBV]
+    other names: [S Dor, SDor, SDOR, Luminous blue variable, LBV]
   - class: Wolf-Rayet
     tags: [broad lines]
     other names: [WR]
@@ -22,13 +22,13 @@ subclasses:
     other names: [FU, FUor, FU Ori, FU Orionis]
   - class: Orion
     tags: [pre-main sequence, diffuse nebulae]
-    other names: []
+    other names: [IN]
     subclasses:
       - class: w/Abs
-        other names: []
+        other names: [IN(YY)]
       - class: T Tauri
         tags: [types F/G/K/M, pre-main sequence, strong chromospheric lines, Hayashi track]
-        other names: [TTS, TT]
+        other names: [TTS, TT, INT, IT]
         subclasses: 
           - class: TTc
             other names: [Classical TTS, Classical T Tauri]
@@ -46,3 +46,6 @@ subclasses:
   - class: Herbig AE/BE
     tags: [types A/B, pre-main sequence]
     other names: [HAeBe]
+  - class: FS CMa 
+    tags: [irregular]
+    other names: [FS Canis Majoris]
