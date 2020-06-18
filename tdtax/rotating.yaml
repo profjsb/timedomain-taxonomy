@@ -1,6 +1,6 @@
 class: Rotating
 subclasses:
-  - class: SXAri
+  - class: SX Ari
     tags: [type BOp-B9p, main sequence, strong He I/Si III]
     other names: [SX Arietus, SX Ari, helium variable]
   - class: Alpha2 CVn
