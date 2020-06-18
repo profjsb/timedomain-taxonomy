@@ -2,7 +2,7 @@ class: Rotating
 subclasses:
   - class: SX Ari
     tags: [type BOp-B9p, main sequence, strong He I/Si III]
-    other names: [SX Arietus, SX Ari, helium variable]
+    other names: [SXA, SX Arietus, SX Ari, helium variable]
   - class: Alpha2 CVn
     tags: [type B8p-A7p, main sequence, chemically peculiar]
     other names: [Alpha2 Canum Venaticorum, ACV]
