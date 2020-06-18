@@ -65,6 +65,6 @@ setup(description=__doc__.splitlines()[0],
       setup_requires=setup_requires,
       install_requires=requirements,
       package_dir={'tdtax': 'tdtax'},
-      package_data={'tdtax': ['viz_template.html']}
+      package_data={'tdtax': ['viz_template.html']},
       url='https://github.com/profjsb/timedomain-taxonomy'
       )
