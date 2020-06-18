@@ -1,0 +1,30 @@
+class: Eclipsing
+subclasses: 
+  - class: Beta Lyrae
+    tags: [types A/B, ellipsoidal, giant/supergiant, accretion disk]
+    other names: [EB, B Lyr]
+  - class: X-Ray Burster
+    tags: [neutron star, main sequence companion, standard candle]
+    other names: [XB, XRay Burster]
+  - class: System with Planet(s)
+    tags: [exoplanet]
+    other names: [EP, System with planet, Binary star system w/ planet, Binary star system with planet, Planetary transit]
+  - class: RS CVn
+    tags: [active chromosphere, eruptive]
+    other names: [RS Canum Venaticorum, RS Can Venat, RS, radio, X-ray, Ca II]
+  - class: W Ursae Maj
+    tags: [contact binary, ellipsoidal]
+    other names: [EW, W Ursae Majoris, W UMa]
+    subclasses:
+      - class: EWa
+        tags: [types A/F]
+        other names: [A-type W UMa, W Uma a]
+      - class: EWw
+        tags: [types G/K]
+        other names: [W-type W UMa, W UMa w]
+  - class: Algol
+    tags: [main sequence star, less massive companion, semidetached]
+    other names: [EA, Algol-type, Beta Persei-type, Beta Per]
+  - class: Symbiotic Var 
+    tags: [cataclysmic]
+    other names: [Symbiotic Variable, ZAND]
