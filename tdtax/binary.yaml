@@ -18,7 +18,7 @@ subclasses:
     other names: [RS Canum Venaticorum, RS Can Venat, RS, radio, X-ray, Ca II]
   - class: W Ursae Maj
     tags: [eclipsing, contact binary, ellipsoidal]
-    other names: [W Ursae Majoris, W UMa, low mass contact binary]
+    other names: [EW, W Ursae Majoris, W UMa]
     subclasses:
       - class: EWa
         tags: [types A/F]
