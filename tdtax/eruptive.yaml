@@ -11,7 +11,7 @@ subclasses:
     other names: [WR]
   - class: Gamma Cas
     tags: [Be star, accretion disk]
-    other names: [Gamma Cassiopeiae, GCas]
+    other names: [Gamma Cassiopeiae, GCas, GCAS]
     subclasses:
       - class: Be
         other names: []
