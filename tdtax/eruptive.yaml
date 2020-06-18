@@ -10,7 +10,7 @@ subclasses:
     tags: [broad lines]
     other names: [WR]
   - class: Gamma Cas
-    tags: [type B, decretion disk]
+    tags: [Be star, accretion disk]
     other names: [Gamma Cassiopeiae, GCas]
     subclasses:
       - class: Be
