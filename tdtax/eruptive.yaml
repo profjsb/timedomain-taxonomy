@@ -42,7 +42,7 @@ subclasses:
        - class: DY Per
          other names: [DY Persei]
          tags: [AGB, carbon-rich]
-         links: [https://en.wikipedia.org/wiki/DY_Persei_variable]
+         links: ["https://en.wikipedia.org/wiki/DY_Persei_variable"]
   - class: Herbig AE/BE
     tags: [types A/B, pre-main sequence]
     other names: [HAeBe]
