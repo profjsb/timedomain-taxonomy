@@ -28,6 +28,7 @@ subclasses:
     other names: [Long period variable]
   - class: Pulsating WD
     other names: [Pulsating white dwarf]
+    tags: [white dwarf]
     subclasses:
       - class: GW VIr
         tags: [pre-degenerate]
