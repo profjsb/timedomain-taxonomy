@@ -16,6 +16,6 @@ subclasses:
   - class: Pulsar
     tags: [neutron star, regular period]
     other names: [PSR]
-  - class: BY Draconis
+  - class: BY Dra
     tags: [class G/K/M, dwarf, starspots, quasiperiodic]
     other names: [BYDraconis]
