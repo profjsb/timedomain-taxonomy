@@ -1,8 +1,4 @@
-class: Binary
-subclasses:
-  - class: Ellipsoidal
-    tags: [rotating]
-    other names: [Ell]
+class: Eclipsing
     subclasses: 
       - class: Beta Lyrae
         tags: [types A/B, eclipsing, giant/supergiant, accretion disk]
