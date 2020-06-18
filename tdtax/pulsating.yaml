@@ -5,7 +5,7 @@ subclasses:
     other names: []
   - class: SX Phe
     tags: [type A2-F5, subdwarf, instability strip, possible Delta Scuti subtype]
-    other names: [SX Phoenicis]
+    other names: [SX Phoenicis, SXPHE]
   - class: RR Lyrae
     tags: [type A/F, instability strip, standard candle]
     other names: [RR Lyr, RR variable, cluster variable]
