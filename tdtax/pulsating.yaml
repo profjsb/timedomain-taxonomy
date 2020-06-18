@@ -50,7 +50,7 @@ subclasses:
     other names: [Sun analog, Solar analogue, Solar analog]
   - class: Delta Scuti
     tags: [giant/main sequence, instability strip, standard candle]
-    other names: [Delta Sct, DSct, dwarf cepheid]
+    other names: [Delta Sct, DSct, dwarf cepheid, DST]
     subclasses: 
       - class: Low-Amp
         other names: [LADS, Low-amplitude delta Scuti]
