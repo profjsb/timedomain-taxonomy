@@ -2,7 +2,7 @@ class: Eclipsing
     subclasses: 
       - class: Beta Lyrae
         tags: [types A/B, eclipsing, giant/supergiant, accretion disk]
-        other names: [BL]
+        other names: [EB, B Lyr]
   - class: X-Ray Burster
     tags: [neutron star, main sequence companion, standard candle]
     other names: [XRay Burster]
