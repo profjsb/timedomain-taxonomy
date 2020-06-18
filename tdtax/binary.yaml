@@ -6,7 +6,7 @@ class: Eclipsing
   - class: X-Ray Burster
     tags: [neutron star, main sequence companion, standard candle]
     other names: [XRay Burster]
-  - class: Syst w/ Planet
+  - class: System with Planet(s)
     tags: [exoplanet]
     other names: [System with planet, Binary star system w/ planet, Binary star system with planet, Planetary transit]
   - class: RS CVn
