@@ -28,7 +28,7 @@ subclasses:
         other names: []
       - class: T Tauri
         tags: [types F/G/K/M, pre-main sequence, strong chromospheric lines, Hayashi track]
-        other names: [TTS]
+        other names: [TTS, TT]
         subclasses: 
           - class: TTc
             other names: [Classical TTS, Classical T Tauri]
