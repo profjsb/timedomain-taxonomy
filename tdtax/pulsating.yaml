@@ -35,7 +35,7 @@ subclasses:
         other names: [DOV, Pulsating PG 1159]
       - class: ZZ Ceti
         tags: []
-        other names: [ZZ Cet]
+        other names: [DAV, ZZ Cet]
         subclasses: 
           - class: H abs only
             tags: [type DA]
