@@ -28,7 +28,7 @@ subclasses:
         other names: [W-type W UMa, W UMa w]
   - class: Algol
     tags: [eclipsing, main sequence star, less massive companion, semidetached]
-    other names: [Algol-type, Beta Persei-type]
+    other names: [EA, Algol-type, Beta Persei-type]
   - class: Symbiotic Var 
     tags: [eclipsing, cataclysmic]
     other names: [Symbiotic Variable]
