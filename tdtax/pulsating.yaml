@@ -64,7 +64,7 @@ subclasses:
     other names: [BCep, B Cep, Beta Canis Majoris, β Cephei, BCEP]
   - class: Semiregular
     tags: [giant/supergiant, long period]
-    other names: [SR]
+    other names: [SR, SRPV]
     subclasses:
       - class: SRa/Z-Aquarii
         other names: []
