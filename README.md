@@ -2,9 +2,9 @@
 
 [![Build Status](https://travis-ci.org/profjsb/timedomain-taxonomy.svg?branch=master)](https://travis-ci.org/profjsb/timedomain-taxonomy)
 
-<img src="taxonomy-viz.gif">
+<img src="https://raw.githubusercontent.com/profjsb/timedomain-taxonomy/master/taxonomy-viz.gif">
 
-This project helps us track and version a taxonomy for astronomical time-series sources, for transients (e.g., supernovae and tidal-distruption events), continuous variables (e.g., QSOs) and variable stars (RR Lyrae, &delta;-Scuti). It is open source and we welcome PRs to change/update this taxonomy as need be.
+This project helps us track and version a taxonomy for astronomical time-series sources, for transients (e.g., supernovae and tidal-disruption events), continuous variables (e.g., QSOs) and variable stars (RR Lyrae, &delta;-Scuti). It is open source and we welcome PRs to change/update this taxonomy as need be.
 
 The generic structure is human-readable YAML and looks like:
 

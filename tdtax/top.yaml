@@ -10,4 +10,13 @@ subclasses:
       - ref: rotating.yaml
       - ref: eruptive.yaml
       - ref: pulsating.yaml
+      - class: microlensing
+        tags: [stellar lensing, gravitational lensing]
+        subclasses:
+          - class: binary lens
+            subclass:
+              - class: lens with planet
+          - class: triple-system lens
+          - class: binary source
+
 

@@ -1,5 +1,20 @@
 class: Cataclysmic
 subclasses:
+  - class: compact merger
+    other names: [gravitational wave event]
+    subclasses:
+      - class: DNS
+        tags: [neutron star, short GRB]
+        other names: [double neutron star, NS-NS]
+        subclasses:
+          - class: kilonova
+            other names: [KN]
+      - class: NS-BH
+        other names: [NSBH]
+        tags: [black hole, neutron star, short GRB]
+        subclasses:
+          - class: kilonova
+            other names: [KN]
   - class: GRB
     other names: [Gamma-ray bursts, GRBs]
     subclasses:

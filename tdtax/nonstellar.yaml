@@ -1,0 +1,29 @@
+class: Nonstellar
+subclasses:
+  - class: DM annihilation
+    other names: [dark matter annihilation]
+  - class: Solar System Object
+    other names: [SSO]
+  - class: Galactic Nuclei
+    tags: [extragalactic, black hole]
+    subclasses:
+      - class: Tidal Disruption Event
+        other names: [TDE]
+      - class: AGN
+        other names: [Active Galactic Nuclei]
+        subclasses:
+          - class: Seyfert
+            other names: [Sy]
+          - class: QSO
+            other names: [Quasistellar Object]
+          - class: Blazar
+            subclasses:
+              - class: OVV
+                other names: [optically violent variable]
+              - class: BL Lac
+      - class: gravitational lensing
+        other names: [lensing]
+        tags: [time delay]
+
+
+

@@ -1,4 +1,5 @@
 class: Eruptive
+tags: [chromospheric process, corona process]
 subclasses:
   - class: UV Ceti
     tags: [types M/K, dwarf, magnetic reconnection]
@@ -29,7 +30,7 @@ subclasses:
       - class: T Tauri
         tags: [types F/G/K/M, pre-main sequence, strong chromospheric lines, Hayashi track]
         other names: [TTS, TT, INT, IT]
-        subclasses: 
+        subclasses:
           - class: TTc
             other names: [Classical TTS, Classical T Tauri]
           - class: TTw
@@ -46,6 +47,6 @@ subclasses:
   - class: Herbig AE/BE
     tags: [types A/B, pre-main sequence]
     other names: [HAeBe]
-  - class: FS CMa 
+  - class: FS CMa
     tags: [irregular]
     other names: [FS Canis Majoris]
