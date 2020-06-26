@@ -55,6 +55,14 @@ In this case only the `class` name is required at each level. Other keys (`subcl
  
 ## Installation
 
+Using pypi:
+
+```
+pip install -U tdtax
+```
+
+Or Directly from Github:
+
 ```
 git clone https://github.com/profjsb/timedomain-taxonomy.git
 cd timedomain-taxonomy
@@ -90,3 +98,18 @@ pytest
 ```
 
 This uses `PyYAML` to validate the taxonomy against the schema. When you make a PR, your branch will be automatically be tested with Travis CI.
+
+## Links
+
+To learn more about taxonomy of variable stars and explosive transients we suggest the following links:
+
+   - ["Variable stars" from CSIRO Astronomy and Space Science](https://www.atnf.csiro.au/outreach/education/senior/astrophysics/variable_types.html?newwindow=true)
+   - [Variability types from GCVS](http://www.sai.msu.su/gcvs/gcvs/vartype.htm?newwindow=true)
+   - [Supernova classification (astrobites)](https://astrobites.org/2016/12/02/classifying-supernovae/) from A. Villar
+
+## Acknowledgements
+
+
+We thank the Gordon and Betty Moore Foundation for a [Software SkyPortal grant](https://www.moore.org/grant-detail?grantId=GBMF9122) which covered the cost of the development of this project.
+
+<a href="https://www.moore.org/grant-detail?grantId=GBMF9122"><img width=200 src="https://www.moore.org/content/images/logo-light.png"> </a>
