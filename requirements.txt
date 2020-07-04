@@ -1,4 +1,4 @@
 jsonschema
 pyyaml
 pytest-factoryboy>=2.0.3
-pytest>=5.4.3
+pytest>=4.3.1
