@@ -59,4 +59,10 @@ subclasses:
       tags: [peculiar]
       comments: SN 1987a
       other names: [SNIIp, SN II-p, SN Type IIp, IIpec, II-p]
-
+- class: FBOT
+  comments: |
+      This is a newly-discovered class of engine-driven explosions.
+  tags: [fast blue optical transient, fast-evolving luminous transient]
+  other names: [FELT]
+  links:
+    - https://en.wikipedia.org/wiki/Fast_blue_optical_transient
