@@ -53,7 +53,7 @@ subclasses:
     subclasses:
       - class: Ic-BL
         tags: [broad lines, high-velocity, massive stars]
-        other names: [SN IcBL, SN Ic-BL, hypernova, broad line supernova]
+        other names: [SN IcBL, SN Ic-BL, hypernova, broad-lined supernova]
       - class: Ic-SLSN
         tags: [bright, super-luminous]
         other names: [SLSN Type I, SLSN-I, super-luminous SN, SLSN I]
