@@ -13,49 +13,80 @@ subclasses:
     - class: Ia-pec
       tags: [peculiar]
       other names: [SN Ia-pec, SNIa-pec, Ia-p]
+    - class: Ia-norm
+      tags: [normal]
+      other names: [SN Ia-normal, normal SN Ia]
+    - class: Ia-91T
+      tags: [over-luminous]
+      other names: [SN Ia-91T, 1991T-like]
+    - class: Ia-91bg
+      tags: [under-luminous]
+      other names: [SN Ia-91bg, 1991bg-like]
+    - class: Ia-02cx
+      tags: [under-luminous]
+      other names: [SN Ia-02cx, 2002cx-like, Iax, SN Iax]
+    - class: Ia-CSM
+      tags: [over-luminous, interacting, narrow line]
+      other names: [SN Ia-CSM, interacting SN Ia, 2002ic-like, SN Ia-02ic]
+    - class: Ia-03fg
+      tags: [over-luminous]
+      other names: [SN Ia-03fg, 2003fg-like, super Chandra, Ia-SC]
+    - class: Ia-18byg
+      tags: []
+      other names: [SN Ia-18byg, 2018byg-like]
   - class: Ib
     tags: [core collapse, helium rich]
     other names: [SN Ib, SNIb, supernovae Ib, SNe Ib]
     subclasses:
-      - class: Ib-p
-        other names: [SN Ib-p]
+      - class: Ib-pec
+        tags: [peculiar]
+        other names: [SN Ib-p, Ib-p]
+      - class: Ib-norm
+        tags: [normal]
+        other names: [SN Ib-norm, normal SN Ib]
+      - class: Ibn
+        tags: [interacting, narrow line]
+        other names: [SN Ibn, 2006jc-like]
   - class: Ic
     tags: [core collapse, no helium]
     other names: [SN Ic, SNIc, supernovae Ic, SNe Ic]
     subclasses:
       - class: Ic-BL
         tags: [broad lines, high-velocity, massive stars]
-        other names: [SN IcBL, SN Ic-BL]
-      - class: SLSN I
+        other names: [SN IcBL, SN Ic-BL, hypernova, broad-lined supernova]
+      - class: Ic-SLSN
         tags: [bright, super-luminous]
-        other names: [SLSN Type I]
-      - class: Ic-p
+        other names: [SLSN Type I, SLSN-I, super-luminous SN, SLSN I]
+      - class: Ic-pec
         tags: [peculiar]
-        other names: [SN Ic-p]
+        other names: [SN Ic-p, Ic-p]
+      - class: Ic-norm
+        tags: [normal]
+        other names: [SN Ic-norm, normal SN Ic]
   - class: Ib/c
     tags: [core collapse, unclear which subclass]
-    other names: [SN Ib/c, SNIb/c, SN Ibc]
+    other names: [SN Ib/c, SNIb/c, SN Ibc, Ibc]
 - class: Type II
-  tags: hydrogen rich
+  tags: [hydrogen rich]
   other names: [SN Type II]
   subclasses:
     - class: IIn
-      tags: [narrow line]
+      tags: [interacting, narrow line]
       other names: [SN IIn, SNe IIn]
-      sublasses:
-        - class: SNLN II
-          tags: [bright, super-luminous]
-          other names: [SLSN Type II]
-    - class: IIP
-      tags: [plateau]
-      other names: [SNIIP, SN II-P, SN Type IIP]
-    - class: IIL
-      tags: [linear]
-      other names: [SNIIP, SN II-L, SN Type IIL]
+    - class: II-norm
+      tags: [normal]
+      other names: [SN II-norm, normal SN II, SNII, SN II]
+      subclasses:
+        - class: IIP
+          tags: [plateau]
+          other names: [SNIIP, SN II-P, SN Type IIP] 
+        - class: IIL
+          tags: [linear]
+          other names: [SNIIL, SN II-L, SN Type IIL]
     - class: IIb
       tags: [helium rich]
       other names: [SNIIb, SN II-b, SN Type IIb]
-    - class: IIpec
+    - class: II-pec
       tags: [peculiar]
       comments: SN 1987a
       other names: [SNIIp, SN II-p, SN Type IIp, IIpec, II-p]
@@ -66,3 +97,6 @@ subclasses:
   other names: [FELT]
   links:
     - https://en.wikipedia.org/wiki/Fast_blue_optical_transient
+- class: Ca-rich
+  tags: [hydrogen poor]
+  other names: [Ca strong]
