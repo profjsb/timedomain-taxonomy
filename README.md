@@ -1,6 +1,6 @@
 # Time-domain Astronomy Taxonomy
 
-[![Build Status](https://travis-ci.org/profjsb/timedomain-taxonomy.svg?branch=master)](https://travis-ci.org/profjsb/timedomain-taxonomy)
+[![Code test](https://github.com/profjsb/timedomain-taxonomy/actions/workflows/test_code.yaml/badge.svg)](https://github.com/profjsb/timedomain-taxonomy/actions/workflows/test_code.yaml)
 
 <img src="https://raw.githubusercontent.com/profjsb/timedomain-taxonomy/master/taxonomy-viz.gif">
 
