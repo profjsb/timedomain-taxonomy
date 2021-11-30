@@ -63,6 +63,9 @@ subclasses:
       - class: Ic-norm
         tags: [normal]
         other names: [SN Ic-norm, normal SN Ic]
+      - class: Icn
+        tags: [interacting, narrow line]
+        other names: [SN Icn]  
   - class: Ib/c
     tags: [core collapse, unclear which subclass]
     other names: [SN Ib/c, SNIb/c, SN Ibc, Ibc]
