@@ -32,7 +32,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install flake8 pytest pytest-cov
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-      - name: Build coverage file
+      - name: Run test and build coverage file
         run: |
           pytest --cache-clear --cov=tdtax > pytest-coverage.txt
       - name: Upload logs
@@ -40,4 +40,4 @@ jobs:
         if: ${{ always() }}
         with:
           name: logs
-          path: log
+          path: pytest-coverage.txt
