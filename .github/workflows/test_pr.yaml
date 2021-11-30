@@ -1,0 +1,46 @@
+name: PR test
+on:
+  pull_request:
+    branches:
+      - '*'
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/setup-python@v1
+        with:
+          python-version: "3.8"
+
+      - name: Checkout branch being tested
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          submodules: true
+          clean: false
+
+      - uses: actions/cache@v2
+        with:
+          path: |
+            ~/.cache/pip
+          key: ${{ runner.os }}-${{ hashFiles('**/requirements*.txt') }}
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install flake8 pytest pytest-cov
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      - name: Run test and build coverage file
+        run: |
+          pytest --cache-clear --cov=tdtax > pytest-coverage.txt
+      - name: Upload logs
+        uses: actions/upload-artifact@v2
+        if: ${{ always() }}
+        with:
+          name: logs
+          path: pytest-coverage.txt
+      - name: Comment PR with coverage
+        uses: coroo/pytest-coverage-commentator@v1.0.2
+        with:
+          pytest-coverage: pytest-coverage.txt
+
