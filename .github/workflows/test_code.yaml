@@ -1,4 +1,5 @@
 name: Code test
+on:
   push:
     branches:
       - master
