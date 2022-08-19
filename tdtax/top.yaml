@@ -1,22 +1,24 @@
 class: Time-domain Source
 subclasses:
-  - ref: nonstellar.yaml
-    comments: |
-      Link to Non-stellar variability sources such as AGN
-  - class: Stellar variable
+  - class: Ontological
+    tags: [Intrinsic source properties]
     subclasses:
-      - ref: cataclysmic.yaml
-      - ref: eclipsing.yaml
-      - ref: rotating.yaml
-      - ref: eruptive.yaml
-      - ref: pulsating.yaml
-      - class: microlensing
-        tags: [stellar lensing, gravitational lensing]
+      - ref: nonstellar.yaml
+        comments: |
+          Link to Non-stellar variability sources such as AGN
+      - class: Stellar variable
         subclasses:
-          - class: binary lens
-            subclass:
-              - class: lens with planet
-          - class: triple-system lens
-          - class: binary source
-
-
+          - ref: cataclysmic.yaml
+          - ref: eclipsing.yaml
+          - ref: rotating.yaml
+          - ref: eruptive.yaml
+          - ref: pulsating.yaml
+          - class: microlensing
+            tags: [stellar lensing, gravitational lensing]
+            subclasses:
+              - class: binary lens
+                subclass:
+                  - class: lens with planet
+              - class: triple-system lens
+              - class: binary source
+  - ref: phenomenological.yaml

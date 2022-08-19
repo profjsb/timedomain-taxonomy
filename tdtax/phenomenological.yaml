@@ -1,0 +1,32 @@
+class: Phenomenological
+tags: [Time series characteristics]
+subclasses:
+  - class: non-variable
+  - class: variable
+  - class: periodic
+    subclasses:
+      - class: sinusoidal
+      - class: sawtooth
+  - class: multi periodic
+  - class: long timescale
+  - class: irregular
+  - class: eclipsing
+    subclasses:
+      - class: EA
+      - class: EB
+      - class: EW
+  - class: flaring
+  - class: dipping
+  - class: bogus
+    subclasses:
+      - class: galaxy
+      - class: blend
+      - class: bright star
+      - class: ccd artifact
+  - class: wrong period
+    subclasses:
+      - class: half period
+      - class: double period
+  - class: nice
+    subclasses:
+      - class: niice
