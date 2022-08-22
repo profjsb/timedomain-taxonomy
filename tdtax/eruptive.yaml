@@ -18,24 +18,6 @@ subclasses:
         other names: []
       - class: Shell
         other names: []
-  - class: FU Ori
-    tags: [pre-main sequence, accretion disk, T Tauri evolution, possible Orion subtype]
-    other names: [FU, FUor, FU Ori, FU Orionis]
-  - class: Orion
-    tags: [pre-main sequence, diffuse nebulae]
-    other names: [IN]
-    subclasses:
-      - class: w/Abs
-        other names: [IN(YY)]
-      - class: T Tauri
-        tags: [types F/G/K/M, pre-main sequence, strong chromospheric lines, Hayashi track]
-        other names: [TTS, TT, INT, IT]
-        subclasses:
-          - class: TTc
-            other names: [Classical TTS, Classical T Tauri]
-          - class: TTw
-            tags: [Weak emission lines]
-            other names: [Weak-line TTS, Weak-line T Tauri]
   - class: R Cor Borealis
     tags: [types F/G, supergiant]
     other names: [R Coronae Borealis, RCB, R CrB, R Cor Bor]
@@ -44,9 +26,31 @@ subclasses:
          other names: [DY Persei]
          tags: [AGB, carbon-rich]
          links: ["https://en.wikipedia.org/wiki/DY_Persei_variable"]
-  - class: Herbig AE/BE
-    tags: [types A/B, pre-main sequence]
-    other names: [HAeBe]
+  - class: YSO
+    tags: [young stellar object]
+    other names: [young stellar object]
+    subclasses:
+       - class: FU Ori
+         tags: [pre-main sequence, accretion disk, T Tauri evolution, possible Orion subtype]
+         other names: [FU, FUor, FU Ori, FU Orionis]
+       - class: Orion
+         tags: [pre-main sequence, diffuse nebulae]
+         other names: [IN]
+         subclasses:
+           - class: w/Abs
+             other names: [IN(YY)]
+           - class: T Tauri
+             tags: [types F/G/K/M, pre-main sequence, strong chromospheric lines, Hayashi track]
+             other names: [TTS, TT, INT, IT]
+             subclasses:
+               - class: TTc
+                 other names: [Classical TTS, Classical T Tauri]
+               - class: TTw
+                 tags: [Weak emission lines]
+                 other names: [Weak-line TTS, Weak-line T Tauri]
+       - class: Herbig AE/BE
+         tags: [types A/B, pre-main sequence]
+         other names: [HAeBe]
   - class: FS CMa
     tags: [irregular]
     other names: [FS Canis Majoris]

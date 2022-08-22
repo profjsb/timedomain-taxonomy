@@ -1,5 +1,5 @@
 class: Eclipsing
-subclasses: 
+subclasses:
   - class: Beta Lyrae
     tags: [types A/B, ellipsoidal, giant/supergiant, accretion disk]
     other names: [EB, B Lyr]
@@ -25,6 +25,23 @@ subclasses:
   - class: Algol
     tags: [main sequence star, less massive companion, semidetached]
     other names: [EA, Algol-type, Beta Persei-type, Beta Per]
-  - class: Symbiotic Var 
+    subclasses:
+      - class: detached MS-MS
+      - class: HW Vir
+        tags: [sdB + dM]
+        other names: [HW Virginis]
+  - class: Symbiotic Var
     tags: [cataclysmic]
     other names: [Symbiotic Variable, ZAND]
+  - class: Compact Binary
+    tags: [Has WD, NS, or BH component]
+    subclasses:
+      - class: DWD
+        tags: [double white dwarf]
+        other names: [dWD]
+      - class: NN Ser
+        tags: [WD + dM]
+        other names: [NN Serpentis]
+      - class: Redback Pulsar
+        tags: [NS + non-degenerate companion]
+        other names: [Redback]
