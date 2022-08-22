@@ -6,6 +6,7 @@ subclasses:
   - class: periodic
     subclasses:
       - class: sinusoidal
+        subclasses: ellipsoidal
       - class: sawtooth
   - class: multi periodic
   - class: long timescale
