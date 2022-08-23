@@ -119,10 +119,10 @@ subclasses:
         subclasses:
           - class: Symmetrical
             other names: [DCEPS, Delta Cep-type Symmetrical]
-      - class: Fundamental
-        other names: [F, Fundamental mode]
-      - class: Overtone
-        other names: [O]
+          - class: Fundamental
+            other names: [F, Fundamental mode]
+          - class: Overtone
+            other names: [O]
   - class: SPB
     tags: [type B2-B9, main sequence]
     other names: [53 Persei, Slowly Pulsating B-type, Slowly Pulsating B]
