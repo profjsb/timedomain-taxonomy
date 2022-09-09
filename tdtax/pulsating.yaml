@@ -21,12 +21,41 @@ subclasses:
         other names: [RRD]
       - class: RRe
         other names: [RRE]
+      - class: Blazhko
+        other names: [RR Lyrae Blazhko, RRBlazhko]
   - class: Alpha Cygni
     tags: [types A/B, supergiant]
     other names: [Alpha Cyg, A Cyg, ACYG]
-  - class: Mira
-    tags: [red giant, long period]
-    other names: [M, Long period variable]
+  - class: LPV
+    tags: [long-period variable]
+    other names: [long-period variable, cool giant/supergiant]
+    subclasses:
+      - class: Mira
+        tags: [red giant, long period]
+        other names: [M, Long period variable]
+      - class: Semiregular
+        tags: [giant/supergiant, long period]
+        other names: [SR, SRPV, semi-regular]
+        subclasses:
+          - class: SRa/Z-Aquarii
+            other names: [SRA]
+          - class: SRb
+            other names: [SRB]
+          - class: SRc
+            other names: [SRC]
+          - class: SRd
+            other names: [SRD]
+      - class: OSARG
+        tags: [OGLE Small-Amplitude Red Giant]
+        other names: [OGLE Small-Amplitude Red Giant]
+  - class: RV Tau
+    tags: [post-AGB, possible Population II Cepheid, instability strip, long period]
+    other names: [RV Tauri, RV]
+    subclasses:
+      - class: Const Mean Mag
+        other names: [Constant mean magnitude]
+      - class: Var Mean Mag
+        other names: [Variable mean magnitude]
   - class: Pulsating WD
     other names: [Pulsating white dwarf]
     tags: [white dwarf]
@@ -66,26 +95,6 @@ subclasses:
   - class: Beta Cephei
     tags: [type B, main sequence, Z bump]
     other names: [BCep, B Cep, Beta Canis Majoris, β Cephei, BCEP]
-  - class: Semiregular
-    tags: [giant/supergiant, long period]
-    other names: [SR, SRPV, semi-regular]
-    subclasses:
-      - class: SRa/Z-Aquarii
-        other names: [SRA]
-      - class: SRb
-        other names: [SRB]
-      - class: SRc
-        other names: [SRC]
-      - class: SRd
-        other names: [SRD]
-  - class: RV Tau
-    tags: [post-AGB, possible Population II Cepheid, instability strip, long period]
-    other names: [RV Tauri, RV]
-    subclasses:
-      - class: Const Mean Mag
-        other names: [Constant mean magnitude]
-      - class: Var Mean Mag
-        other names: [Variable mean magnitude]
   - class: Population II Cepheid
     tags: []
     other names: [Population II Ceph, Type II Ceph, Type II Cepheid, Type-II Ceph, Type-II Cepheid, CW]
@@ -110,6 +119,10 @@ subclasses:
         subclasses:
           - class: Symmetrical
             other names: [DCEPS, Delta Cep-type Symmetrical]
+          - class: Fundamental
+            other names: [F, Fundamental mode]
+          - class: Overtone
+            other names: [O]
   - class: SPB
     tags: [type B2-B9, main sequence]
     other names: [53 Persei, Slowly Pulsating B-type, Slowly Pulsating B]
