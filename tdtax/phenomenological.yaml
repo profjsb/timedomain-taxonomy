@@ -29,6 +29,3 @@ subclasses:
     subclasses:
       - class: half period
       - class: double period
-  - class: nice
-    subclasses:
-      - class: niice
