@@ -116,8 +116,8 @@ subclasses:
       comments: SN 1987a
       other names: [SNIIp, SN II-p, SN Type IIp, IIpec, II-p]
     - class: II-SLSN
-        tags: [bright, super-luminous, H lines]
-        other names: [SLSN Type II, SLSN-II, super-luminous SN-II, SLSN II] 
+      tags: [bright, super-luminous, H lines]
+      other names: [SLSN Type II, SLSN-II, super-luminous SN-II, SLSN II] 
 - class: FBOT
   comments: |
       This is a newly-discovered class of engine-driven explosions.
