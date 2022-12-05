@@ -31,6 +31,8 @@ subclasses:
     - class: Ia-00cx
       tags: [over-luminous]
       other names: [SN Ia-00cx, 2000cx-like]
+      links:
+        - https://arxiv.org/abs/1307.3555
     - class: Ia-02cx
       tags: [under-luminous]
       other names: [SN Ia-02cx, 2002cx-like, Iax, SN Iax]
