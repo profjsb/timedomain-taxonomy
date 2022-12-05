@@ -22,6 +22,15 @@ subclasses:
     - class: Ia-91bg
       tags: [under-luminous]
       other names: [SN Ia-91bg, 1991bg-like]
+    - class: Ia-99aa
+      tags: [over-luminous]
+      other names: [SN Ia-99aa, 1999aa-like]
+      comments: Like Ia-91T, but weak Ca II H/K and Si II before peak.
+      links:
+        - https://arxiv.org/abs/2209.06301
+    - class: Ia-00cx
+      tags: [over-luminous]
+      other names: [SN Ia-00cx, 2000cx-like]
     - class: Ia-02cx
       tags: [under-luminous]
       other names: [SN Ia-02cx, 2002cx-like, Iax, SN Iax]
@@ -57,6 +66,14 @@ subclasses:
       - class: Ic-SLSN
         tags: [bright, super-luminous]
         other names: [SLSN Type I, SLSN-I, super-luminous SN, SLSN I]
+      - class: Ic.5-SLSN
+        tags: [bright, super-luminous]
+        other names: [SLSN Type I.5, SLSN-I.5, SLSN I.5]
+        comments: |
+            Similar to SLSN-I at early times, but H lines visible after peak
+        links: 
+          - https://arxiv.org/abs/2202.02059
+          - https://arxiv.org/abs/2207.12059
       - class: Ic-pec
         tags: [peculiar]
         other names: [SN Ic-p, Ic-p]
@@ -89,10 +106,16 @@ subclasses:
     - class: IIb
       tags: [helium rich]
       other names: [SNIIb, SN II-b, SN Type IIb]
+    - class: IIb-pec
+      tags: [helium rich, peculiar]
+      other names: [SNIIb-pec, SN II-bp, SN Type IIb-pec]
     - class: II-pec
       tags: [peculiar]
       comments: SN 1987a
       other names: [SNIIp, SN II-p, SN Type IIp, IIpec, II-p]
+    - class: II-SLSN
+        tags: [bright, super-luminous, H lines]
+        other names: [SLSN Type II, SLSN-II, super-luminous SN-II, SLSN II] 
 - class: FBOT
   comments: |
       This is a newly-discovered class of engine-driven explosions.
@@ -103,3 +126,9 @@ subclasses:
 - class: Ca-rich
   tags: [hydrogen poor]
   other names: [Ca strong]
+- class: ILRT
+  comments: |
+      Transient of uncertain origin with luminosity between classical novae and core-collapse SNe.
+  tags: [intermediate luminosity red transient]
+  links:
+    - https://arxiv.org/abs/1908.02323
