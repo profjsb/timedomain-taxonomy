@@ -6,23 +6,23 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     timeout-minutes: 90
     permissions:
       pull-requests: write
     steps:
-      - uses: actions/setup-python@v1
+      - uses: actions/setup-python@v2
         with:
           python-version: "3.8"
 
       - name: Checkout branch being tested
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
           submodules: true
           clean: false
 
-      - uses: actions/cache@v2
+      - uses: actions/cache@v3
         with:
           path: |
             ~/.cache/pip
@@ -37,8 +37,8 @@ jobs:
         run: |
           pytest --cache-clear --cov=tdtax > pytest-coverage.txt
       - name: Upload logs
-        uses: actions/upload-artifact@v2
-        if: ${{ always() }}
+        uses: actions/upload-artifact@v3
+        if: ${{ !env.ACT }}
         with:
           name: logs
           path: pytest-coverage.txt
