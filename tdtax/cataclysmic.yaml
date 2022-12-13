@@ -23,6 +23,8 @@ subclasses:
         other names: [SHB, sGRB]
       - class: long GRB
         other names: [LSB, lGRB, long-soft GRB]
+      - class: afterglow
+        other names: [GRB plateau]
   - ref: supernovae.yaml
     comments: Supernova classification taxonomy
   - class: Novae
