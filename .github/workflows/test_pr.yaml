@@ -10,9 +10,9 @@ jobs:
     permissions:
       pull-requests: write
     steps:
-      - uses: actions/setup-python@v2
+      - uses: actions/setup-python@v4
         with:
-          python-version: "3.8"
+          python-version: "3.10"
 
       - name: Checkout branch being tested
         uses: actions/checkout@v3
@@ -41,8 +41,4 @@ jobs:
         with:
           name: logs
           path: pytest-coverage.txt
-      - name: Comment PR with coverage
-        uses: coroo/pytest-coverage-commentator@v1.0.2
-        with:
-          pytest-coverage: pytest-coverage.txt
 
