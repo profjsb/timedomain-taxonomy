@@ -28,7 +28,7 @@ taxstr = taxstr.replace('"class":', '"name":') \
                .replace('"subclasses":', '"children":')
 vega_taxonomy = json.loads(taxstr)
 
-__version__ = '0.1.5'
+__version__ = '0.1.6'
 
 __all__ = ["taxonomy", "schema", "vega_taxonomy", "write_viz", "__version__"]
 
