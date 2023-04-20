@@ -8,7 +8,7 @@ This project helps us track and version a taxonomy for astronomical time-series 
 
 The generic structure is human-readable YAML and looks like:
 
-```
+```yaml
   class: Supernova
   comments: |
       This is a diverse class of explosions related
@@ -34,7 +34,7 @@ The generic structure is human-readable YAML and looks like:
 ```
 There are two ways to describe the class. Either refer to another YAML file:
 
-```
+```yaml
 - class: Stellar variable
     subclasses:
       - ref: cataclysmic.yaml
@@ -43,7 +43,7 @@ There are two ways to describe the class. Either refer to another YAML file:
 ```
 or define the classes outright:
 
-```
+```yaml
   - class: Novae
     tags: [binary]
     subclasses:
@@ -57,13 +57,13 @@ In this case only the `class` name is required at each level. Other keys (`subcl
 
 Using pypi:
 
-```
+```bash
 pip install -U tdtax
 ```
 
 Or Directly from Github:
 
-```
+```bassh
 git clone https://github.com/profjsb/timedomain-taxonomy.git
 cd timedomain-taxonomy
 pip install .
@@ -73,7 +73,7 @@ pip install .
 
 To get the taxonomy, after installation, as a Python `dict`:
 
-```
+```python
 import tdtax
 from tdtax import taxonomy
 ```
@@ -81,7 +81,7 @@ This will merge all the YAML taxonomy files referred to in the `top.yaml` file a
 
 To output the current taxonomy to a webpage that can be interactively traversed:
 
-```
+```python
 import tdtax
 tdtax.write_viz(tdtax.vega_taxonomy, outname="viz.html")
 ```
@@ -93,7 +93,7 @@ The taxonomy is captured starting the file `tdtax/top.yaml`. It refers to other 
 
 Upon `import tdtax` the taxonomies are merged into a single JSON tree and this is validated against the schema file `tdtax/schema.json`. Before a PR, test to make sure that taxonomy validates against the schema by running the tests:
 
-```
+```bash
 pytest
 ```
 
