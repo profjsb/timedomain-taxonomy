@@ -144,7 +144,7 @@ subclasses:
   subclasses:
     - class: Idn
       tags: [interacting, narrow line]
-      other names: [SN Idn]
+      other names: [SN Idn, SNIdn]
 - class: Ie
   tags: [hydrogen poor]
   comments: |
@@ -155,4 +155,4 @@ subclasses:
   subclasses:
     - class: Ien
       tags: [interacting, narrow line]
-      other names: [SN Ien]
+      other names: [SN Ien, SNIen]
