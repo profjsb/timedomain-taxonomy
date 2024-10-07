@@ -32,6 +32,8 @@ subclasses:
     subclasses:
       - class: Classical Nova
         other names: []
+      - class: Luminous Red Nova
+        other names: [LRN]
       - class: Nova-like
         other names: []
         subclasses:

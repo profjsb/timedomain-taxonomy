@@ -134,3 +134,25 @@ subclasses:
   tags: [intermediate luminosity red transient]
   links:
     - https://arxiv.org/abs/1908.02323
+- class: Id
+  tags: [hydrogen poor]
+  comments: |
+    SNe with O/Ne/Mg-rich (and C/He/H-poor) outer layers
+  other names: [SN Id, SNIId]
+  links:
+    - https://arxiv.org/pdf/2409.02054
+  subclasses:
+    - class: Idn
+      tags: [interacting, narrow line]
+      other names: [SN Idn]
+- class: Ie
+  tags: [hydrogen poor]
+  comments: |
+    SNe with O/Si/S-rich (and Mg/Ne/He/H-poor) outer layers
+  other names: [SN Ie, SNIe]
+  links:
+    - https://arxiv.org/pdf/2409.02054
+  subclasses:
+    - class: Ien
+      tags: [interacting, narrow line]
+      other names: [SN Ien]
