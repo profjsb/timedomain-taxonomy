@@ -151,7 +151,7 @@ subclasses:
     SNe with O/Si/S-rich (and Mg/Ne/He/H-poor) outer layers
   other names: [SN Ie, SNIe]
   links:
-    - https://arxiv.org/pdf/2409.02054
+    - https://arxiv.org/abs/2409.02054
   subclasses:
     - class: Ien
       tags: [interacting, narrow line]
