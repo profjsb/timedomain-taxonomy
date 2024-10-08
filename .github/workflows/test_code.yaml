@@ -11,18 +11,21 @@ jobs:
     permissions:
       pull-requests: write
     steps:
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
       - uses: actions/setup-python@v4
         with:
           python-version: "3.10"
 
       - name: Checkout branch being tested
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
           submodules: true
           clean: false
 
-      - uses: actions/cache@v3
+      - uses: actions/cache@v4
         with:
           path: |
             ~/.cache/pip
@@ -37,7 +40,7 @@ jobs:
         run: |
           pytest --cache-clear --cov=tdtax > pytest-coverage.txt
       - name: Upload logs
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         if: ${{ !env.ACT }}
         with:
           name: logs
