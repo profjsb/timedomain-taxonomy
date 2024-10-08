@@ -140,7 +140,7 @@ subclasses:
     SNe with O/Ne/Mg-rich (and C/He/H-poor) outer layers
   other names: [SN Id, SNId]
   links:
-    - https://arxiv.org/pdf/2409.02054
+    - https://arxiv.org/abs/2409.02054
   subclasses:
     - class: Idn
       tags: [interacting, narrow line]
