@@ -15,7 +15,8 @@ from jsonschema import validate
 from .util import write_viz, merge_yamls
 
 _basedir = os.path.dirname(__file__)
-schema = json.load(open(pjoin(_basedir, "schema.json"), "r"))
+with open(pjoin(_basedir, "schema.json"), "r") as f:
+    schema = json.load(f)
 
 # get the taxonomy and validate - raise an error if this does
 # not validate against the schema
