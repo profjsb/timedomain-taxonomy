@@ -21,7 +21,8 @@ CBOLD = '\33[1m'
 
 def is_valid(fname, schema):
     try:
-        instance = yaml.load(open(fname), Loader=Loader)
+        with open(fname) as f:
+            instance = yaml.load(f, Loader=Loader)
         validate(instance=instance, schema=schema)
         ret = f"{fname} is " + CBOLD + CGREEN + "valid" + CEND
     except ScannerError:
