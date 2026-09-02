@@ -23,6 +23,9 @@ subclasses:
         other names: [SHB, sGRB]
       - class: long GRB
         other names: [LSB, lGRB, long-soft GRB]
+      - class: X-ray Flash
+        tags: [soft spectrum]
+        other names: [XRF, XRFs]
       - class: afterglow
         other names: [GRB plateau]
   - ref: supernovae.yaml
