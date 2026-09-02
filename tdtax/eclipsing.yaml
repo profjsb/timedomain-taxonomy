@@ -10,8 +10,8 @@ subclasses:
     tags: [exoplanet]
     other names: [EP, System with planet, Binary star system w/ planet, Binary star system with planet, Planetary transit]
   - class: RS CVn
-    tags: [active chromosphere, eruptive]
-    other names: [RS Canum Venaticorum, RS Can Venat, RS, radio, X-ray, Ca II]
+    tags: [active chromosphere, eruptive, radio emission, X-ray emission, Ca II emission]
+    other names: [RS Canum Venaticorum, RS Can Venat, RS]
   - class: W Ursae Maj
     tags: [contact binary, ellipsoidal]
     other names: [EW, W Ursae Majoris, W UMa]
