@@ -63,7 +63,8 @@ def walk_and_replace(d, path="./", verbose=False):
 
 
 def merge_yamls(fname):
-    taxonomy = yaml.load(open(fname), Loader=Loader)
+    with open(fname) as f:
+        taxonomy = yaml.load(f, Loader=Loader)
     path = os.path.dirname(fname) + "/"
     walk_and_replace(taxonomy, path)
     return taxonomy
